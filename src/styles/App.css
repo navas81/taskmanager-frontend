@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: smooth background + font for entire app */
+body {
+  @apply bg-gradient-to-br from-purple-500 via-pink-500 to-indigo-500 min-h-screen text-gray-800;
+  font-family: 'Inter', sans-serif;
+}
