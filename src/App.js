@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import SignupPage from "./pages/SignupPage";
 import LoginPage from "./pages/LoginPage";
 import TasksPage from "./pages/TasksPage";
-import "react-toastify/dist/ReactToastify.css";
+import 'react-toastify/dist/ReactToastify.css';
+
 import ProtectedRoute from "./components/ProtectedRoute";
 
 
