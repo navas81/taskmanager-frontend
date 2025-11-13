@@ -3,9 +3,14 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import SignupPage from "./pages/SignupPage";
 import LoginPage from "./pages/LoginPage";
 import TasksPage from "./pages/TasksPage";
-import 'react-toastify/dist/ReactToastify.css';
+
 
 import ProtectedRoute from "./components/ProtectedRoute";
+
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+
+
 
 
 
@@ -25,7 +30,8 @@ function App() {
             </ProtectedRoute>
           }
         />
-      </Routes>
+      </Routes>3
+      <ToastContainer />
     </Router>
   );
 }
